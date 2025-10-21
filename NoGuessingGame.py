@@ -13,3 +13,9 @@ while True:
         print("You won")
         print(f"The number was {RandomNumber}")
         break
+
+
+    play_again = input("Play again? (y/n): ").lower()
+    if play_again != 'y':
+        print("Thanks for playing! 👋")
+        break
